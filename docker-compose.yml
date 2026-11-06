@@ -26,7 +26,7 @@ services:
     image: 2400030462/docker-skill-exam-2400030462:latest
     build:
       context: ./SpringBootTaskProject
-      dockerfile: skillexam
+      dockerfile: Dockerfile
     container_name: exam-service
     ports:
       - "9001:8001"
